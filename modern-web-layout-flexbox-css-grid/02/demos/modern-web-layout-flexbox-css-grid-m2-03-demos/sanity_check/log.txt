@@ -1,0 +1,26 @@
+﻿01/24/2022 22:14:51
+Automated Sanity Check v1.5 -- updated 12/25/18
+ 
+
+Black Edge Analysis at 5 Timestamps:
+ - GOOD
+ - All Clear
+
+Black Frame Analysis:
+ - GOOD
+ - No black frames detected.
+
+Clip Dimensions Analysis:
+ - WARNING
+ - Couldn't get dimensions for modern-web-layout-flexbox-css-grid-m2-03.mp4
+
+
+Framerate Analysis:
+ - GOOD
+ - All clips either 30 or 15 fps
+
+
+Audio Analysis:
+
+Audio Level Tweaks:
+
