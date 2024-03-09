@@ -1,9 +1,10 @@
 import './App.css';
 import Header from './header/Header';
-import Menu from './menu/Menu';
 import Footer from './footer/Footer';
-import Main from './main/Main';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import Home from '../src/pages/home/Home'
+import Recipes from '../src/pages/recipes/Recipes';
+import Suggest from '../src/pages/suggest/Suggest';
 
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <Router>
       <div className="App">
         <Header/>
-
-        <Main/>
-
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/recipes" element={<Recipes />} />
+            <Route path="/suggest" element={<Suggest />} />
+          </Routes>
         <Footer/>
       </div>
     </Router>

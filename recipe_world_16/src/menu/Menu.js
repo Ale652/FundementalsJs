@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Home from '../pages/home/Home'
-import styles from './styles.css';
+
 
 
 export default class Menu extends React.Component {
@@ -21,11 +20,6 @@ export default class Menu extends React.Component {
               </li>
             </ul>
           </nav>
-          <Routes>
-            <Route path="/" exact component={Home.js} />
-            <Route path="/recipes" component={Home} />
-            <Route path="/suggest" component={Home} />
-          </Routes>
         </div>
       );
     }

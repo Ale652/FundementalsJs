@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.css';
-import faryCake from '../images/FaryCake.png';
+import faryCake from '../../../images/FaryCake.png';
 
 
 export default class Main extends React.Component {

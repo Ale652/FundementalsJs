@@ -1,12 +1,11 @@
 import React from 'react';
-import Main from './main/Main';
 
-
-export default class Home extends React.Component {
+export default class Suggest extends React.Component {
     render() {
+      console.log("In Suggest");
         return (
             <div className="main">
-                <Main/>
+                
             </div>
       );
     }
